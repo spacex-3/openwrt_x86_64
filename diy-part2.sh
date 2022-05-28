@@ -13,11 +13,6 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
-git clone https://github.com/jerrykuku/lua-maxminddb.git package
-
-git clone https://github.com/jerrykuku/luci-app-vssr.git package
-
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
-
 
 ./scripts/feeds install -a
